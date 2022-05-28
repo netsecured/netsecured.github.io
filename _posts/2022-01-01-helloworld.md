@@ -1,5 +1,5 @@
 ---
-title: MyTitle
+title: MyTitle full title
 date: 2022-05-23 12:00:00 -0700
 categories: [main, sub]
 tags: [tag]     # TAG names should always be lowercase
