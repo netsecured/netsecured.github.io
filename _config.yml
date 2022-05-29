@@ -35,17 +35,17 @@ github:
   username: netsecured             # change to your github username
 
 twitter:
-  username: BlackBoxAlix1            # change to your twitter username
+  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: gera schlaefer
+  name: netsecured
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/BlackBoxAlix1      # change to your twitter homepage
-    - https://github.com/netsecured       # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -83,7 +83,9 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://netsecu.red/bl-content/uploads/pages/f505e3374a34c1fc500d5b0e44869495/OhMyGiraffe.jpg
+#avatar: https://netsecu.red/bl-content/uploads/pages/f505e3374a34c1fc500d5b0e44869495/OhMyGiraffe.jpg
+
+avatar: /assets/img/kisspng-riding-boot-shoe-equestrian-rain-rain-boot-5b1a43657b33e3.3985528515284478455047.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true

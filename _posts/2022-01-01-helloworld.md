@@ -3,6 +3,11 @@ title: MyTitle full title
 date: 2022-05-23 12:00:00 -0700
 categories: [main, sub]
 tags: [tag]     # TAG names should always be lowercase
+image:
+  src: /assets/img/2439867.jpg
+  width: 100   # in pixels
+  height: 100   # in pixels
+  alt: image alternative text
 ---
 
 
@@ -23,9 +28,36 @@ lorem ipsum dipsum
 > cvb
 > 
 
-![Image description](https://netsecu.red/bl-content/uploads/pages/f505e3374a34c1fc500d5b0e44869495/OhMyGiraffe.jpg)
-
+```yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kanboard
+  labels:
+    networking/namespace: kanboard
 ```
+
+> Example line for prompt.
+{: .prompt-tip }
+> Example line for prompt.
+{: .prompt-info }
+> Example line for prompt.
+{: .prompt-warning }
+> Example line for prompt.
+{: .prompt-danger }
+
+
+
+![Desktop View](https://netsecu.red/bl-content/uploads/pages/f505e3374a34c1fc500d5b0e44869495/OhMyGiraffe.jpg)
+_Image Caption_
+
+
+![img-description](/assets/img/kisspng-riding-boot-shoe-equestrian-rain-rain-boot-5b1a43657b33e3.3985528515284478455047.png){: .right }
+_Image Caption_
+
+
+
+```yml
 "cvbcvbvcbvcb"
 cvb
 vcbvbcvbvbc
@@ -51,7 +83,7 @@ ___
 
 ***
 
-<a href="./admin/">admin panel</a>
+
 
 ## Typographic replacements
 
