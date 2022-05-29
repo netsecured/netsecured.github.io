@@ -3,8 +3,9 @@ title: MyTitle full title
 date: 2022-05-23 12:00:00 -0700
 categories: [main, sub]
 tags: [tag]     # TAG names should always be lowercase
+img_path: /assets/img/
 image:
-  src: /assets/img/2439867.jpg
+  src: 2439867.jpg
   width: 100   # in pixels
   height: 100   # in pixels
   alt: image alternative text
@@ -52,7 +53,7 @@ metadata:
 _Image Caption_
 
 
-![img-description](/assets/img/kisspng-riding-boot-shoe-equestrian-rain-rain-boot-5b1a43657b33e3.3985528515284478455047.png){: .right }
+![img-description](kisspng-riding-boot-shoe-equestrian-rain-rain-boot-5b1a43657b33e3.3985528515284478455047.png){: .right }
 _Image Caption_
 
 
